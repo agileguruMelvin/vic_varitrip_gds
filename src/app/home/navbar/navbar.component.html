@@ -5,31 +5,27 @@
     <div class="dis-part">
       <span>Distribution Partner</span>
        <span class="fill-200px"></span>
-      <a md-raised-button color="primary" href="http://pos.varitrip.com">Login</a>
+      <button md-raised-button color="primary">Login</button>
     </div>
   </md-toolbar>
   <md-toolbar class="end-icon">
-    <a md-button *ngFor="let item of iconItems" href="#{{ item.text }}">{{ item.text }}</a>
-    <div class="language en"></div>
-    <div class="language cn"></div>
+    <button md-button *ngFor="let item of iconItems" >{{ item.text }}</button>
   </md-toolbar>
 </div>
 
 <div class="navigation-bar mobile-view">
   <img class="toolbar-logo" src="./assets/images/logo.svg" href=".">
   <md-toolbar class="end-icon">
-      <div class="language en"></div>
-      <div class="language cn"></div>
     <button md-icon-button [mdMenuTriggerFor]="posXMenu" aria-label="Open x-positioned menu">
       <span class="fill-remaining"></span>
       <md-icon>menu</md-icon>
     </button>
   </md-toolbar>
-  
+
   <md-menu xPosition="before" #posXMenu="mdMenu">
-    <a md-menu-item *ngFor="let item of iconItems" [disabled]="item.disabled"  href="#{{ item.text }}">
+    <button md-menu-item *ngFor="let item of iconItems" [disabled]="item.disabled">
       {{ item.text }}
-    </a>
+    </button>
     <md-card class="card">
       <md-card-header>
         <md-card-title>Distribution Partner</md-card-title>
@@ -41,19 +37,4 @@
   </md-menu>
 </div>
 
-<app-above-thefold></app-above-thefold>
-<div id="{{ iconItems[0].text }}"></div>
-<app-core-offerings></app-core-offerings> 
-<div id="{{ iconItems[1].text }}"></div>
-<app-why-us></app-why-us> 
-<div id="{{ iconItems[3].text }}"></div>
-<app-integration></app-integration> 
-<div id="{{ iconItems[4].text }}"></div>
-<app-curated-results></app-curated-results> 
-<div id="{{ iconItems[5].text }}"></div>
-<app-automated-process></app-automated-process> 
-<app-extra-features></app-extra-features> 
-<div id="contact-us"></div>
-<app-contact-us></app-contact-us> 
-<app-footer></app-footer> 
 <!-- <router-outlet></router-outlet> -->

@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="row">
+      <div class="col-2"></div>
+      <div class="col-8 with-top-margin text-center">
+        <h1 class="">
+          A Better Travel Experience
+        </h1>
+        <br>
+        <p>
+          Variety of curated travel products for your customers to enjoy:
+        </p>
+      </div>
+      <div class="col-2"></div>
+  </div>
+  <div class="row">
+    <div class="col-xl-2"></div>
+    <div class="col-12 col-xl-3 content no-top-margin">
+      <div class="row list-icon-collection">
+          <div class="col-10 col-sm-6 col-xl-12 list-icons" *ngFor="let item of iconItems">
+              <img class="list-icon" src="./assets/images/{{ item.icon }}.png"> <span class="list-item">{{ item.text }}</span>
+            <!-- <div class="col-1 mobile-only"> -->
+            <!-- <div class="row"> -->
+              
+              <!-- <div class="col-2">
+                  <img class="list-icon" src="./assets/images/{{ item.icon }}.png">
+              </div>
+              <div class="col-10">
+                  <span class="list-item">{{ item.text }}</span>
+              </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-1 mobile-only"> -->
+          </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-xl-5 video-full">
+      <video class="vid" controls="false" autoplay="true" loop="true">
+        <source src="https://s3-ap-northeast-1.amazonaws.com/varitrip-video/varitrip.webm" type="video/webm">
+        <source src="https://s3-ap-northeast-1.amazonaws.com/varitrip-video/varitrip.mp4" type="video/mp4">
+        </video>
+    </div>
+     <div class="col-xl-2"></div>
+  </div>
+</div>

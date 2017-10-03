@@ -1,0 +1,111 @@
+.container {
+  width: 100%;
+
+  background-image: url("/assets/images/bg-4.png");
+  background-size: 100% 100%;
+//   background: #212121;
+//     background-image: initial;
+//     background-position-x: initial;
+//     background-position-y: initial;
+//     background-size: initial;
+//     background-repeat-x: initial;
+//     background-repeat-y: initial;
+//     background-attachment: initial;
+//     background-origin: initial;
+//     background-clip: initial;
+//     background-color: rgb(33, 33, 33);
+//   color: white;
+}
+
+table {
+    width: 100%
+}
+
+.video-full {
+  padding:0;
+}
+
+.vid {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  img {
+      margin: 0 auto;
+      width: 100%;
+      height: auto;
+  }
+
+  .details-center {
+      text-align: center;
+  }
+}
+
+.image-small {
+    height: 128px;
+    width: auto;
+}
+
+.image-center {
+    width: 100%;
+    text-align: center;
+}
+
+.list-icon {
+  height: 40px;
+  max-width: 40px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.list-icons {
+  margin: 0 auto;
+      text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.white-circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  background-color: #fff;
+}
+
+h5 {
+  padding-top:8px;
+}
+
+// .form-directions {
+//     max-width: 400px;
+// }
+
+@media (max-width: 600px) {
+  .container {
+    margin-top: -8px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .container {
+    margin-top: -8px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+}

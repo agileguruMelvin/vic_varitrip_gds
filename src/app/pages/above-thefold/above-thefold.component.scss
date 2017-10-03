@@ -1,0 +1,83 @@
+.parallax {
+    /* The image used */
+    background-image: url("/assets/images/bg-1.png");
+}
+
+.static-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 8px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  
+  h4 {
+    font-family: 'Pacifico', cursive;
+    color: rgb(59, 86, 152);
+  }
+}
+
+.message-content {
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+.take-away {
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 72px;
+  line-height: 100px;
+}
+
+.container {
+  width: 100%;
+}
+
+.background-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: auto;
+  z-index: -1;
+}
+
+@media (max-width: 600px) {
+  .take-away {
+    margin: 0 auto;
+  }
+
+  .message {
+    text-align: center;
+    // margin: 0 auto;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .take-away {
+    margin: 0 auto;
+  }
+
+  .message {
+    text-align: center;
+    // margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .message-content {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .take-away {
+    float:right;
+  }
+
+  .message {
+    text-align: right;
+  }
+}

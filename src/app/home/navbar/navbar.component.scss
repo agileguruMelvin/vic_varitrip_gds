@@ -1,0 +1,113 @@
+.navigation-bar {
+  // z-index: 10;
+  // position:fixed;
+  // top: 0;
+}
+
+.end-icon {
+    align-items: flex-end;
+  }
+
+.toolbar {
+  .fill-remaining {
+    flex: 1 1 auto;
+  }
+}
+
+.demo-sidenav-container {
+  min-width: 320px;
+  min-height: 100vh;
+
+  .mat-sidenav-focus-trap > .cdk-focus-trap-content {
+    padding: 10px;
+  }
+}
+
+.demo-sidenav-content {
+  padding: 15px;
+}
+
+.mat-fab.mat-accent {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.mat-sidenav {
+    min-width: 320px;
+}
+
+.card {
+    color: gray;
+    border-top: 1px;
+}
+
+.noMargin {
+    margin-bottom: 0;
+}
+
+.fill-200px {
+  margin-right: 200px;
+}
+
+.toolbar-logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+
+  -webkit-clip-path: polygon(0 0, 100% 0, 81% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 81% 100%, 0% 100%);
+  background-color: #3A549A;
+}
+
+.toolbar-desktop {
+  span {
+    font-size: 14px;
+    color: gray;
+  }
+}
+
+.dis-part {
+  border-bottom: 1px solid gray;
+  padding-bottom: 8px;
+  margin-bottom: -8px;
+}
+
+@media (max-width: 600px) {
+  .desktop-view {
+    display: none;
+  }
+
+  .toolbar-logo {
+    height: 56px;
+    width: auto;
+    padding: 12px;
+    padding-right: 24px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .desktop-view {
+    display: none;
+  }
+
+  .toolbar-logo {
+    height: 64px;
+    width: auto;
+    padding: 12px;
+    padding-right: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mobile-view {
+    display: none;
+  }
+
+  .toolbar-logo {
+    height: 128px;
+    width: auto;
+    padding: 30px;
+    padding-right: 60px;
+  }
+}

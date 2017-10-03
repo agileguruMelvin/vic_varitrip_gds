@@ -1,1 +1,120 @@
 /* You can add global styles to this file, and also import other style files */
+// @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+@import '~@angular/material/theming';
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// **Be sure that you only ever include this mixin once!**
+@include mat-core();
+
+// Define the default theme (same as the example above).
+$candy-app-primary: mat-palette($mat-pink, A200, A100, A400);
+$candy-app-accent:  mat-palette($mat-pink, A200, A100, A400);
+$candy-app-theme:   mat-light-theme($candy-app-primary, $candy-app-accent);
+
+// Include the default theme styles.
+@include angular-material-theme($candy-app-theme);
+
+.mat-menu-content {
+    padding-bottom: 0 !important;
+}
+
+// .mat-toolbar-row {
+//   border-bottom: 1px solid #ccc;
+//   padding-bottom: 8px;
+// }
+
+body {
+  margin: 0;
+  
+  h2, h3, h4, h5, p, span {
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  h1 {
+    font-family: 'Pacifico', cursive;
+  }
+}
+
+.content {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.no-top-margin {
+  margin-top: 0;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0;
+}
+
+.with-top-margin {
+  margin-top: 2.5rem;
+}
+
+.mat-button-wrapper {
+  padding: 0px !important;
+  display: inline !important;
+}
+
+.fill-remaining {
+    flex: 1 1 auto;
+  }
+
+.parallax {
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mat-fab {
+  height: 84px !important;
+  width: 84px !important;
+}
+
+@media (max-width: 600px) {
+  .parallax {
+      min-height: calc(100vh - 64px);
+  }
+
+  .xl-only {
+    display: none;
+  }
+
+  .md-only {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .parallax {
+      // min-height: calc(100vh - 64px);
+  }
+
+  .mobile-only {
+    display: none;
+  }
+
+  .xl-only {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .parallax {
+      // height: calc(100vh - 128px);
+  }
+
+  .mobile-only {
+    display: none;
+  }
+
+  .md-only {
+    display: none;
+  }
+}

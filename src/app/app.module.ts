@@ -41,6 +41,9 @@ import {
 import {CdkTableModule} from '@angular/cdk/table';
 // import {a} from '@angular/animations'
 
+import {ContactFormService} from './contact-form.service';
+import {TextReaderService} from './text-reader.service';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './home/navbar/navbar.component';
@@ -53,6 +56,8 @@ import { AutomatedProcessComponent } from './pages/automated-process/automated-p
 import { ExtraFeaturesComponent } from './pages/extra-features/extra-features.component';
 import { FooterComponent } from './home/footer/footer.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { MapComponent } from './pages/map/map.component';
+import { ListOfCitiesComponent } from './shared/list-of-cities/list-of-cities.component';
 
 @NgModule({
   declarations: [
@@ -66,8 +71,11 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
     AutomatedProcessComponent,
     ExtraFeaturesComponent,
     FooterComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    MapComponent,
+    ListOfCitiesComponent
   ],
+  entryComponents: [ListOfCitiesComponent],
   imports: [
     BrowserModule,
     FormsModule,
@@ -144,7 +152,7 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
     CdkTableModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [ContactFormService, TextReaderService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -3,23 +3,19 @@
   <md-toolbar class="end-icon toolbar-desktop">
     <span class="fill-remaining"></span>
     <div class="dis-part">
-      <span>Distribution Partner</span>
-       <span class="fill-200px"></span>
-      <a md-raised-button color="primary" href="http://pos.varitrip.com">Login</a>
+      <a md-raised-button color="primary" href="http://pos.varitrip.com">Distribution Partner Login</a>
     </div>
   </md-toolbar>
   <md-toolbar class="end-icon">
-    <a md-button *ngFor="let item of iconItems" href="#{{ item.text }}">{{ item.text }}</a>
-    <div class="language en"></div>
-    <div class="language cn"></div>
+    <a md-button *ngFor="let item of iconItems" (click)="goToElement(item.text)">{{ item.text }}</a>
   </md-toolbar>
 </div>
 
 <div class="navigation-bar mobile-view">
   <img class="toolbar-logo" src="./assets/images/logo.svg" href=".">
   <md-toolbar class="end-icon">
-      <div class="language en"></div>
-      <div class="language cn"></div>
+      <!-- <div class="language en" (click)="changeLanguage('en')"></div>
+      <div class="language cn" (click)="changeLanguage('cn')"></div> -->
     <button md-icon-button [mdMenuTriggerFor]="posXMenu" aria-label="Open x-positioned menu">
       <span class="fill-remaining"></span>
       <md-icon>menu</md-icon>
@@ -27,14 +23,13 @@
   </md-toolbar>
   
   <md-menu xPosition="before" #posXMenu="mdMenu">
-    <a md-menu-item *ngFor="let item of iconItems" [disabled]="item.disabled"  href="#{{ item.text }}">
+    <a md-menu-item *ngFor="let item of iconItems" [disabled]="item.disabled" (click)="goToElement(item.text)">
       {{ item.text }}
     </a>
     <md-card class="card">
       <md-card-header>
-        <md-card-title>Distribution Partner</md-card-title>
         <md-card-subtitle class="noMargin">
-          <button md-raised-button color="primary">Login</button>
+          <a md-raised-button color="primary" href="http://pos.varitrip.com">Distribution Partner Login</a>
         </md-card-subtitle>
       </md-card-header>
     </md-card>
@@ -46,6 +41,8 @@
 <app-core-offerings></app-core-offerings> 
 <div id="{{ iconItems[1].text }}"></div>
 <app-why-us></app-why-us> 
+<div id="{{ iconItems[2].text }}"></div>
+<app-map></app-map>
 <div id="{{ iconItems[3].text }}"></div>
 <app-integration></app-integration> 
 <div id="{{ iconItems[4].text }}"></div>
@@ -56,4 +53,3 @@
 <div id="contact-us"></div>
 <app-contact-us></app-contact-us> 
 <app-footer></app-footer> 
-<!-- <router-outlet></router-outlet> -->

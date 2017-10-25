@@ -1,7 +1,5 @@
 .container {
   width: 100%;
-
-  // background-image: url("/assets/images/bg-2.png");
   background-image: url("/assets/images/bg-4.png");
 }
 
@@ -12,6 +10,7 @@
 .vid {
   width: 100%;
   height: auto;
+  max-height: 100%;
 }
 
 .content {
@@ -39,15 +38,14 @@
 }
 
 @media (max-width: 600px) {
-
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
-
 }
 
 @media (min-width: 1200px) {
   .vid {
+    max-width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;

@@ -1,9 +1,3 @@
-.navigation-bar {
-// z-index: 10;
-// position:fixed;
-// top: 0;
-}
-
 .language {
     height: 32px;
     width: 32px;
@@ -71,31 +65,18 @@ padding: 15px;
 }
 
 .fill-200px {
-margin-right: 200px;
+    margin-right: 200px;
 }
 
 .toolbar-logo {
-position: absolute;
-left: 0;
-top: 0;
-cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
 
--webkit-clip-path: polygon(0 0, 100% 0, 81% 100%, 0% 100%);
-clip-path: polygon(0 0, 100% 0, 81% 100%, 0% 100%);
-background-color: #3A549A;
-}
-
-.toolbar-desktop {
-span {
-    font-size: 14px;
-    color: gray;
-}
-}
-
-.dis-part {
-border-bottom: 1px solid gray;
-padding-bottom: 8px;
-margin-bottom: -8px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 81% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 81% 100%, 0% 100%);
+    background-color: #3A549A;
 }
 
 @media (max-width: 600px) {

@@ -9,12 +9,12 @@ export class WhyUsComponent implements OnInit {
   iconItems = [
     {text: 'One Account, Hundreds of Products', icon: 'user'},
     {text: 'Complete China Coverage', icon: 'china'},
-    {text: 'Fast & Efficient Bookings', icon: 'network'},
-    {text: 'Best Prices', icon: 'revenue'},
+    {text: 'Easy Bookings', icon: 'network'},
+    {text: 'Competitive Prices', icon: 'revenue'},
     {text: 'Easy Integration', icon: 'gears'},
-    {text: 'Late Bookings / Instant Confirmation', icon: 'email'},
+    {text: 'Last Minute Bookings & Instant Confirmations', icon: 'timer'},
     {text: '24/7 Operations Support', icon: '247'},
-    {text: 'Easy & Best Redemption Methods', icon: 'redemption'},
+    {text: 'Easy Redemption', icon: 'redemption'},
     {text: 'No Annual or Monthly Fees', icon: 'free'}
   ];
 

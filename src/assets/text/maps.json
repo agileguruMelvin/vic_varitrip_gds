@@ -1,0 +1,618 @@
+[
+    {
+    "name": "Huangshan",
+    "country": "China",
+    "latitude": 29.7147,
+    "longitude": 118.3375,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Beijing",
+    "country": "China",
+    "latitude": 39.9042,
+    "longitude": 116.4074,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Chongqing",
+    "country": "China",
+    "latitude": 29.4316,
+    "longitude": 106.9123,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Xiamen",
+    "country": "China",
+    "latitude": 24.4798,
+    "longitude": 118.0894,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Dunhuang",
+    "country": "China",
+    "latitude": 40.1421,
+    "longitude": 94.662,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Guangzhou",
+    "country": "China",
+    "latitude": 23.1291,
+    "longitude": 113.2644,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Kaiping",
+    "country": "China",
+    "latitude": 22.3764,
+    "longitude": 112.6985,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Foshan",
+    "country": "China",
+    "latitude": 23.0215,
+    "longitude": 113.1214,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Guilin",
+    "country": "China",
+    "latitude": 25.2345,
+    "longitude": 110.18,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Yangshuo",
+    "country": "China",
+    "latitude": 24.7785,
+    "longitude": 110.4966,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Chengde",
+    "country": "China",
+    "latitude": 40.9529,
+    "longitude": 117.9628,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Luoyang",
+    "country": "China",
+    "latitude": 34.6202,
+    "longitude": 112.4539,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Anyang",
+    "country": "China",
+    "latitude": 36.0976,
+    "longitude": 114.3924,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Yichang",
+    "country": "China",
+    "latitude": 30.692,
+    "longitude": 111.2865,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Zhangjiajie",
+    "country": "China",
+    "latitude": 29.1171,
+    "longitude": 110.4792,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Suzhou",
+    "country": "China",
+    "latitude": 31.299,
+    "longitude": 120.5853,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Nanjing",
+    "country": "China",
+    "latitude": 32.0603,
+    "longitude": 118.7969,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Xining",
+    "country": "China",
+    "latitude": 36.6171,
+    "longitude": 101.7782,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Xian",
+    "country": "China",
+    "latitude": 34.3416,
+    "longitude": 108.9398,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Qufu",
+    "country": "China",
+    "latitude": 35.581,
+    "longitude": 116.9865,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Qingdao",
+    "country": "China",
+    "latitude": 36.0671,
+    "longitude": 120.3826,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Shanghai",
+    "country": "China",
+    "latitude": 31.2304,
+    "longitude": 121.4737,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Pingyao",
+    "country": "China",
+    "latitude": 37.1898,
+    "longitude": 112.1762,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Datong",
+    "country": "China",
+    "latitude": 40.0768,
+    "longitude": 113.3001,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Chengdu",
+    "country": "China",
+    "latitude": 30.5728,
+    "longitude": 104.0668,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Tianjin",
+    "country": "China",
+    "latitude": 39.3434,
+    "longitude": 117.3616,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Turpan",
+    "country": "China",
+    "latitude": 42.9513,
+    "longitude": 89.1898,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Urumqi",
+    "country": "China",
+    "latitude": 43.8256,
+    "longitude": 87.6168,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Kashgar",
+    "country": "China",
+    "latitude": 39.4677,
+    "longitude": 75.9938,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Kunming",
+    "country": "China",
+    "latitude": 24.8801,
+    "longitude": 102.8329,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Lijiang",
+    "country": "China",
+    "latitude": 26.855,
+    "longitude": 100.2277,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Dali",
+    "country": "China",
+    "latitude": 25.6065,
+    "longitude": 100.2676,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Hangzhou",
+    "country": "China",
+    "latitude": 30.2741,
+    "longitude": 120.15,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Jiaxing",
+    "country": "China",
+    "latitude": 30.7539,
+    "longitude": 120.7585,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Amsterdam",
+    "country": "Netherlands",
+    "latitude": 52.3702,
+    "longitude": 4.8952,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Barcelona",
+    "country": "Spain",
+    "latitude": 41.3851,
+    "longitude": 2.1734,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Belfast",
+    "country": "Ireland",
+    "latitude": 54.5973,
+    "longitude": -5.9301,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Berlin",
+    "country": "Germany",
+    "latitude": 52.52,
+    "longitude": 13.405,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Budapest",
+    "country": "Hungary",
+    "latitude": 47.4979,
+    "longitude": 19.0402,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Chicago",
+    "country": "USA",
+    "latitude": 41.8781,
+    "longitude": -87.6298,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Cork",
+    "country": "Ireland",
+    "latitude": 51.8969,
+    "longitude": -8.4863,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Dubai",
+    "country": "United Arab Emirates",
+    "latitude": 25.2048,
+    "longitude": 55.2708,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Dublin",
+    "country": "Ireland",
+    "latitude": 53.3498,
+    "longitude": 6.2603,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Edinburgh",
+    "country": "United Kingdom",
+    "latitude": 55.9533,
+    "longitude": -3.1883,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Florence",
+    "country": "Italy",
+    "latitude": 43.7696,
+    "longitude": 11.2558,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Genoa",
+    "country": "Italy",
+    "latitude": 44.4056,
+    "longitude": 8.9463,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Granada",
+    "country": "Spain",
+    "latitude": 37.1773,
+    "longitude": -3.5986,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Inverness",
+    "country": "United Kingdom",
+    "latitude": 57.4778,
+    "longitude": -4.2247,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Krakow",
+    "country": "Poland",
+    "latitude": 50.0647,
+    "longitude": 19.945,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Las Vegas",
+    "country": "USA",
+    "latitude": 36.1699,
+    "longitude": -115.1398,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Le Mont-Saint-Michel",
+    "country": "France",
+    "latitude": 48.6361,
+    "longitude": -1.5115,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Lisbon",
+    "country": "Portugal",
+    "latitude": 38.7223,
+    "longitude": -9.1393,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Lisse",
+    "country": "Netherlands",
+    "latitude": 52.2579,
+    "longitude": 4.5575,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "London",
+    "country": "United Kingdom",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Lyon",
+    "country": "France",
+    "latitude": 45.764,
+    "longitude": 4.8357,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Madrid",
+    "country": "Spain",
+    "latitude": 40.4168,
+    "longitude": -3.7038,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Malaga",
+    "country": "Spain",
+    "latitude": 36.7213,
+    "longitude": -4.4214,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Miami",
+    "country": "USA",
+    "latitude": 25.7617,
+    "longitude": -80.1918,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Milan",
+    "country": "Italy",
+    "latitude": 45.4642,
+    "longitude": 9.19,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Naples",
+    "country": "Italy",
+    "latitude": 40.8518,
+    "longitude": 14.2681,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "New York",
+    "country": "USA",
+    "latitude": 40.7134,
+    "longitude": -74.0055,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Paris",
+    "country": "France",
+    "latitude": 48.8566,
+    "longitude": 2.3522,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Pisa",
+    "country": "Italy",
+    "latitude": 43.7228,
+    "longitude": 10.4017,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Prague",
+    "country": "Czech Republic",
+    "latitude": 50.0755,
+    "longitude": 14.4378,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Rome",
+    "country": "Italy",
+    "latitude": 41.9028,
+    "longitude": 12.4964,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Rotterdam",
+    "country": "Netherlands",
+    "latitude": 51.9244,
+    "longitude": 4.4777,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "San Francisco",
+    "country": "USA",
+    "latitude": 37.7749,
+    "longitude": -122.4194,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Seville",
+    "country": "Spain",
+    "latitude": 37.3891,
+    "longitude": -5.9845,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Siena",
+    "country": "Italy",
+    "latitude": 43.3188,
+    "longitude": 11.3308,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Stratford-upon-Avon",
+    "country": "United Kingdom",
+    "latitude": 52.1917,
+    "longitude": -1.7083,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "The Hague",
+    "country": "Netherlands",
+    "latitude": 52.0705,
+    "longitude": 4.3007,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Tours",
+    "country": "France",
+    "latitude": 47.3941,
+    "longitude": 0.6848,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Turin",
+    "country": "Italy",
+    "latitude": 45.0703,
+    "longitude": 7.6869,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Venice",
+    "country": "Italy",
+    "latitude": 45.4408,
+    "longitude": 12.3155,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Verona",
+    "country": "Italy",
+    "latitude": 45.4384,
+    "longitude": 10.9916,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Vienna",
+    "country": "Austria",
+    "latitude": 48.2082,
+    "longitude": 16.3738,
+    "radius": 10,
+    "fillKey": "USA"
+    },
+    {
+    "name": "Hong Kong",
+    "country": "China",
+    "latitude": 22.3964,
+    "longitude": 114.1095,
+    "radius": 10,
+    "fillKey": "USA"
+    }
+]

@@ -11,46 +11,37 @@
         <div class="col-xl-2"></div>
         <div class="col-12 col-xl-8">
         <p>
-          Let us show you how we can Increase your Revenue Stream and Improve your Product Selection.  Simply fill out the form below and we will respond to you within 24 hours - Thank you!
+          Let us show you how we can <b>increase your revenue stream</b> and <b>improve your product selection</b>.  Simply fill out the form below and a Varitrip team member will contact you.
         </p>
         </div>
         <br>
       <div class="col-xl-2"></div>
       </div>
       <div class="image-center">
-        <form class="example-form" method="POST" action="https://script.google.com/a/emvee.io/macros/s/AKfycbx13ouKDxPgjmBzxY4kaSprgA1v_35OE1vINPSWqEP17K7ETBms/exec">
+        <form class="example-form" (ngSubmit)="onSubmit({fname: fname.value, lname: lname.value, cname: cname.value, email: email.value})">
           <table class="example-full-width" cellspacing="0"><tr>
             <td><md-input-container class="example-full-width">
-              <input mdInput placeholder="First name" name="First name">
+              <input mdInput #fname placeholder="First name" name="First name">
             </md-input-container></td> 
             <td><md-input-container class="example-full-width">
-              <input mdInput placeholder="Last Name"  name="Last name">
+              <input mdInput #lname placeholder="Last Name"  name="Last name">
             </md-input-container></td>
           </tr></table>
 
           <table class="example-full-width" cellspacing="0"><tr>
             <td><md-input-container class="example-full-width">
-              <input mdInput placeholder="Company Name"  name="Company name">
+              <input mdInput #cname placeholder="Company Name"  name="Company name">
             </md-input-container></td> 
             <td><md-input-container class="example-full-width">
-              <input mdInput placeholder="Email" name="Email">
+              <input mdInput #email placeholder="Email" name="Email">
             </md-input-container></td>
           </tr></table>
 
           <table class="example-full-width" cellspacing="0"><tr>
             <td>
-              <button md-raised-button color="primary" type="submit" >Submit</button>
+              <button md-raised-button color="primary" type="submit" [disabled]="isSending">Submit</button>
             </td>
           </tr></table>
-
-          <!-- <p>
-            <md-input-container class="example-full-width">
-              <textarea mdInput placeholder="Address">1600 Amphitheatre Pkwy</textarea>
-            </md-input-container>
-            <md-input-container class="example-full-width">
-              <textarea mdInput placeholder="Address 2"></textarea>
-            </md-input-container>
-          </p> -->
         </form>
       </div>
     </div>

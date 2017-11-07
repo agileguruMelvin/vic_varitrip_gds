@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class WhyUsComponent implements OnInit {
   iconItems = [
     {text: 'One Account, Hundreds of Products', icon: 'user'},
-    {text: 'Complete China Coverage', icon: 'china'},
+    {text: 'Global Coverage', icon: 'globe'},
     {text: 'Easy Bookings', icon: 'network'},
     {text: 'Competitive Prices', icon: 'revenue'},
     {text: 'Easy Integration', icon: 'gears'},

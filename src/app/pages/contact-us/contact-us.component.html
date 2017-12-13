@@ -20,26 +20,26 @@
       <div class="image-center">
         <form class="example-form" (ngSubmit)="onSubmit({fname: fname.value, lname: lname.value, cname: cname.value, email: email.value})">
           <table class="example-full-width" cellspacing="0"><tr>
-            <td><md-input-container class="example-full-width">
-              <input mdInput #fname placeholder="First name" name="First name">
-            </md-input-container></td> 
-            <td><md-input-container class="example-full-width">
-              <input mdInput #lname placeholder="Last Name"  name="Last name">
-            </md-input-container></td>
+            <td><mat-input-container class="example-full-width">
+              <input matInput #fname placeholder="First name" name="First name">
+            </mat-input-container></td> 
+            <td><mat-input-container class="example-full-width">
+              <input matInput #lname placeholder="Last Name"  name="Last name">
+            </mat-input-container></td>
           </tr></table>
 
           <table class="example-full-width" cellspacing="0"><tr>
-            <td><md-input-container class="example-full-width">
-              <input mdInput #cname placeholder="Company Name"  name="Company name">
-            </md-input-container></td> 
-            <td><md-input-container class="example-full-width">
-              <input mdInput #email placeholder="Email" name="Email">
-            </md-input-container></td>
+            <td><mat-input-container class="example-full-width">
+              <input matInput #cname placeholder="Company Name"  name="Company name">
+            </mat-input-container></td> 
+            <td><mat-input-container class="example-full-width">
+              <input matInput #email placeholder="Email" name="Email">
+            </mat-input-container></td>
           </tr></table>
 
           <table class="example-full-width" cellspacing="0"><tr>
             <td>
-              <button md-raised-button color="primary" type="submit" [disabled]="isSending">Submit</button>
+              <button mat-raised-button color="primary" type="submit" [disabled]="isSending">Submit</button>
             </td>
           </tr></table>
         </form>

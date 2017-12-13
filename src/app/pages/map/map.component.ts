@@ -4,7 +4,7 @@ import * as d3 from 'd3';
 import * as topojson from 'topojson';
 import * as Datamap from 'datamaps';
 
-import { MdDialog, MdDialogRef } from '@angular/material';
+import { MatDialog, MatDialogRef } from '@angular/material';
 import { ListOfCitiesComponent } from '../../shared/list-of-cities/list-of-cities.component';
 
 import { TextReaderService } from '../../text-reader.service'
@@ -17,7 +17,7 @@ import { TextReaderService } from '../../text-reader.service'
 export class MapComponent implements OnInit {
   listOfCountries;
 
-  constructor(public dialog: MdDialog, private _textReaderService: TextReaderService) { }
+  constructor(public dialog: MatDialog, private _textReaderService: TextReaderService) { }
 
   ngOnInit() {
     this._textReaderService.readMap().subscribe( response => {

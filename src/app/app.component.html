@@ -1,39 +1,39 @@
 <div class="navigation-bar desktop-view">
     <img class="toolbar-logo" src="./assets/images/logo.svg" href=".">
-  <md-toolbar class="end-icon toolbar-desktop">
+  <mat-toolbar class="end-icon toolbar-desktop">
     <span class="fill-remaining"></span>
     <div class="dis-part">
-      <a md-raised-button color="primary" href="http://pos.varitrip.com">Distribution Partner Login</a>
+      <a mat-raised-button color="primary" href="http://pos.varitrip.com">Distribution Partner Login</a>
     </div>
-  </md-toolbar>
-  <md-toolbar class="end-icon">
-    <a md-button *ngFor="let item of iconItems" (click)="goToElement(item.text)">{{ item.text }}</a>
-  </md-toolbar>
+  </mat-toolbar>
+  <mat-toolbar class="end-icon">
+    <a mat-button *ngFor="let item of iconItems" (click)="goToElement(item.text)">{{ item.text }}</a>
+  </mat-toolbar>
 </div>
 
 <div class="navigation-bar mobile-view">
   <img class="toolbar-logo" src="./assets/images/logo.svg" href=".">
-  <md-toolbar class="end-icon">
+  <mat-toolbar class="end-icon">
       <!-- <div class="language en" (click)="changeLanguage('en')"></div>
       <div class="language cn" (click)="changeLanguage('cn')"></div> -->
-    <button md-icon-button [mdMenuTriggerFor]="posXMenu" aria-label="Open x-positioned menu">
+    <button mat-icon-button [matMenuTriggerFor]="posXMenu" aria-label="Open x-positioned menu">
       <span class="fill-remaining"></span>
-      <md-icon>menu</md-icon>
+      <mat-icon>menu</mat-icon>
     </button>
-  </md-toolbar>
+  </mat-toolbar>
   
-  <md-menu xPosition="before" #posXMenu="mdMenu">
-    <a md-menu-item *ngFor="let item of iconItems" [disabled]="item.disabled" (click)="goToElement(item.text)">
+  <mat-menu xPosition="before" #posXMenu="matMenu">
+    <a mat-menu-item *ngFor="let item of iconItems" [disabled]="item.disabled" (click)="goToElement(item.text)">
       {{ item.text }}
     </a>
-    <md-card class="card">
-      <md-card-header>
-        <md-card-subtitle class="noMargin">
-          <a md-raised-button color="primary" href="http://pos.varitrip.com">Distribution Partner Login</a>
-        </md-card-subtitle>
-      </md-card-header>
-    </md-card>
-  </md-menu>
+    <mat-card class="card">
+      <mat-card-header>
+        <mat-card-subtitle class="noMargin">
+          <a mat-raised-button color="primary" href="http://pos.varitrip.com">Distribution Partner Login</a>
+        </mat-card-subtitle>
+      </mat-card-header>
+    </mat-card>
+  </mat-menu>
 </div>
 
 <app-above-thefold></app-above-thefold>
